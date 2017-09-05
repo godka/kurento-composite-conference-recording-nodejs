@@ -3,9 +3,10 @@
   "version": "5.1.1-dev",
   "private": true,
   "scripts": {
-    "postinstall": "cd static && bower install"
+    "postinstall": "cd static && bower install --allow-root"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "~3.2.6",
     "kurento-client": "5.1.0",
     "minimist": "^1.1.0",
